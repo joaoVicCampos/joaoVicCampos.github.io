@@ -6,34 +6,49 @@
     <title>Potfólio Web</title>
 </head>
     <style>
-      h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+      h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; font-size: 45px; text-align: center; padding-top: 30px;
 
       }
-      p{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+      p{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
       }
 
-
-
+      body{
+        background-color: #f06449ff;
+      }
+      
+      h2{
+        font-size: 30px;
+      }
+      
+      .lista{
+        font-size: 25px;
+      }
+      a{
+        text-decoration: none;
+      }
+      .links{
+        margin: 20px; inline-size: none; ;
+      }
 
     </style>
 <body>
     <h1 id="nome">João Victor Alves Campos</h1>
     <br>
-    <a href="#nome">Meu nome</a> <br>
-    <a href="#descricao">Minha descrição</a><br>
-    <a href="#lista">Lista de habilidades</a><br>
-    <a href="#blog">Meu blog favorito</a><br>
+    <a class="links" href="#nome">Meu nome</a> <br>
+    <a class="links"  href="#descricao">Minha descrição</a><br>
+    <a class="links"  href="#lista">Lista de habilidades</a><br>
+    <a class="links"  href="#blog">Meu blog favorito</a><br>
     <br>
     <img src="minhafoto.jpg" alt="dono do portfólio feliz após passar na Trybe" width="350px">
     <br>
     <p id="descricao">Olá, tenho 23 anos,sou <strong>brasileiro</strong>,moro na cidade de Juiz de Fora, no estado de Minas Gerais. Atualmente estou cursando programação full-stack na <strong>Trybe</strong>, e curso Ciências Exatas na Faculdade Federal de Juiz de Fora (UFJF).</p>
-    <h2 id="lista" style="background-color:green;">Minhas Habilidades</h2>
+    <h2 id="lista">Minhas Habilidades</h2>
     <ul>
-      <li><em>Inglês avançado</em></li>
-      <li><em>Facilidade em aprender</em></li>
-      <li><em>Flexibilidade</em></li>
-      <li><em>Fácil adaptação</em></li>
+      <li class="lista"><em>Inglês avançado</em></li>
+      <li class="lista"><em>Facilidade em aprender</em></li>
+      <li class="lista"><em>Flexibilidade</em></li>
+      <li class="lista"><em>Fácil adaptação</em></li>
     </ul>
     <a href="minhafoto.jpg">Minha foto</a> ||
     <a href="https://blog.betrybe.com/desenvolvimento-web/" target="_blank" id="blog" >Meu artigo do momento</a>
